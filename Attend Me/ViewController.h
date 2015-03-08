@@ -6,9 +6,12 @@
 //  Copyright (c) 2015 F@5. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
+#import "MyLoginViewController.h"
+@interface ViewController : UIViewController<PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 
 @end
