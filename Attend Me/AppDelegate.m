@@ -18,8 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     // Override point for customization after application launch.
-    [Parse setApplicationId:@"DSqh27AAdc2syLZKfuW87HPuoIqwtpu55GIzKHh5"
-                  clientKey:@"JxKtmOb3d8gCf8WxLPT86J36SJEYTbmbMOJ2HuDg"];
+    // here you put the parse credentials
+    // [Parse setApplicationId:@""
+    //               clientKey:@""];
     
     //[PFUser enableAutomaticUser];
     PFACL *defaultACL = [PFACL ACL];
